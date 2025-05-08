@@ -95,4 +95,4 @@ os.environ["STATE_MANAGER_REDIS_URL"] = "redis-prod.mycompany.internal"
 
 ### License
 
-MIT © Schalke
+MIT © 2025 Ruslan Schalkenbajew
