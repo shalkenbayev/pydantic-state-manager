@@ -1,5 +1,5 @@
 [project]
-name = "pydantic-state-manager"
+name = "pydantic-state"
 version = "0.0.2"
 description = "Add your description here"
 readme = "README.md"
