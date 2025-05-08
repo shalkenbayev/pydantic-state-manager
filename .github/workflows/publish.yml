@@ -1,11 +1,11 @@
 # .github/workflows/publish.yml
 name: Publish Python package
 
-# Trigger on tag push (e.g. v1.2.3)
+# Trigger on push or merge to main
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches:
+      - main
 
 jobs:
   publish:
