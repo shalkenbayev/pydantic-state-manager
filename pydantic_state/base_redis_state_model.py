@@ -1,7 +1,7 @@
 from pydantic import BaseModel, TypeAdapter, ValidationError
 import uuid
 
-from redis_client import redis_client
+from pydantic_state.redis_client import redis_client
 
 
 class BaseRedisStateModel(BaseModel, arbitrary_types_allowed=True):

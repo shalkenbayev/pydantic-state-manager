@@ -1,1 +1,1 @@
-from base_redis_state_model import BaseRedisStateModel
+from pydantic_state.base_redis_state_model import BaseRedisStateModel
